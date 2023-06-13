@@ -2,9 +2,9 @@
 from brain_games.cli import welcome_user
 
 
-
 def welcom():
     print('Welcome to the Brain Games!')
+
 
 def main():
     welcom()
