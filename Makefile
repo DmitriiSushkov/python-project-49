@@ -12,8 +12,16 @@ brain-even: # Run game 'The Even'
 	
 brain-calc: # Run game 'Calculate'
 	poetry run brain-calc
+	
+	
+brain-gcd: # Run game 'GCD'
+	poetry run brain-gcd	
 		
-		
+
+brain-progression: # Run game 'Arithmetic progression'
+	poetry run brain-progression
+	
+			
 install: # Install programs
 	poetry install
 
@@ -32,3 +40,6 @@ package-install: # package-install
 
 lint: # Linter
 	poetry run flake8 brain_games
+
+force:
+	pip install --user dist/*.whl --force-reinstall

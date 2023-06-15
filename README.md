@@ -12,7 +12,10 @@
  _**brain-even** - even number definition_
 
  _**brain-calc** - evaluation of arithmetic expressions_
-
+ 
+ _**brain-gcd** - determination of the greatest common divisor_
+ 
+  _**brain-progression** - determining the progression of numbers in their sequence_
 ## Minimum requirement 
 
  _Python 3.10_
@@ -34,8 +37,17 @@
 
 ### Rec game brain-even
 
-[![asciicast](https://asciinema.org/a/oxx2u0rGZ2BgeEdLOytlL8BYZ.svg)](https://asciinema.org/a/oxx2u0rGZ2BgeEdLOytlL8BYZ)
+[![asciicast](https://asciinema.org/a/lewMsSvMclLWuOUzyOdts6gHO.svg)](https://asciinema.org/a/lewMsSvMclLWuOUzyOdts6gHO)
 
 ### Rec game brain-calc
 
-[![asciicast](https://asciinema.org/a/OawMGVywxWMuGPxEHmmt0pID5.svg)](https://asciinema.org/a/OawMGVywxWMuGPxEHmmt0pID5)
+[![asciicast](https://asciinema.org/a/eLkd9V4Z62RZVLFBQAJ3zln7E.svg)](https://asciinema.org/a/eLkd9V4Z62RZVLFBQAJ3zln7E)
+
+### Rec game brain-gcd
+
+[![asciicast](https://asciinema.org/a/jSVEZylRSDBlN5sUpccqDgHdE.svg)](https://asciinema.org/a/jSVEZylRSDBlN5sUpccqDgHdE)
+
+### Rec game brain-progression
+
+[![asciicast](https://asciinema.org/a/qQiz1dcEtD4A7V5LUsL2n0WNb.svg)](https://asciinema.org/a/qQiz1dcEtD4A7V5LUsL2n0WNb)
+
