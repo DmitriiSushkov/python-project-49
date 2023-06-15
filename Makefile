@@ -1,11 +1,19 @@
 install:
 	poetry install
+	
+	
 brain-games: # Run brain-games
 	poetry run brain-games
+	
 	
 brain-even: # Run game 'The Even'
 	poetry run brain-even
 	
+	
+brain-calc: # Run game 'Calculate'
+	poetry run brain-calc
+		
+		
 install: # Install programs
 	poetry install
 
