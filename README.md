@@ -15,7 +15,9 @@
  
  _**brain-gcd** - determination of the greatest common divisor_
  
-  _**brain-progression** - determining the progression of numbers in their sequence_
+ _**brain-progression** - determining the progression of numbers in their sequence_
+ 
+ _**brain-prime** - prime number definition_ 
 ## Minimum requirement 
 
  _Python 3.10_
@@ -49,5 +51,9 @@
 
 ### Rec game brain-progression
 
-[![asciicast](https://asciinema.org/a/qQiz1dcEtD4A7V5LUsL2n0WNb.svg)](https://asciinema.org/a/qQiz1dcEtD4A7V5LUsL2n0WNb)
+[![asciicast](https://asciinema.org/a/qQiz1dcEtD4A7V5LUsL2n0WNb.svg)](https://asciinema.org/a/qQiz1dcEtD4A7V5LUsL2n0WNb) 
+
+### Rec game brain-prime
+
+[![asciicast](https://asciinema.org/a/5Q9tRrbRDPJxlTxRU91Odmxdd.svg)](https://asciinema.org/a/5Q9tRrbRDPJxlTxRU91Odmxdd)
 
