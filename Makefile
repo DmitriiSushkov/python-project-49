@@ -1,12 +1,26 @@
 install:
 	poetry install
-brain-games:
+brain-games: # Run brain-games
 	poetry run brain-games
-build:
+	
+brain-even: # Run game 'The Even'
+	poetry run brain-even
+	
+install: # Install programs
+	poetry install
+
+
+build: # build
 	poetry build
-publish:
+
+
+publish: # Run publish
 	poetry publish --dry-run
-package-install:
+
+
+package-install: # package-install
 	python3 -m pip install --user dist/*.whl
-lint:
+
+
+lint: # Linter
 	poetry run flake8 brain_games
