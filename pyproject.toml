@@ -1,22 +1,27 @@
 [tool.poetry]
-name = "python-project-49"
+name = "hexlet-code"
 version = "0.1.0"
-description = ""
-authors = ["Dmitrii Sushkov <python.dev.cat@gmail.com>"]
+description = "The package contains 5 mini-games"
+authors = ["Alexey <yakor.alex@gmail.com>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
+repository = "https://github.com/YAV88/python-project-49"
+classifiers = [
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: Microsoft :: Windows :: Windows 11",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Communications :: Email"
+]
+
 
 [tool.poetry.dependencies]
 python = "^3.10"
 prompt = "^0.4.1"
 
-
-[tool.poetry.group.dev.dependencies]
-flake8 = "^6.0.0"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
@@ -25,3 +30,12 @@ brain-calc = "brain_games.scripts.brain_calc:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

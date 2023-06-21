@@ -1,31 +1,27 @@
-install:
-	poetry install
-	
-	
 brain-games: # Run brain-games
 	poetry run brain-games
-	
-	
+
+
 brain-even: # Run game 'The Even'
 	poetry run brain-even
-	
-	
+
+
 brain-calc: # Run game 'Calculate'
 	poetry run brain-calc
-	
-	
+
+
 brain-gcd: # Run game 'GCD'
-	poetry run brain-gcd	
-		
+	poetry run brain-gcd
+
 
 brain-progression: # Run game 'Arithmetic progression'
 	poetry run brain-progression
-	
-	
+
+
 brain-prime: # Run game 'Arithmetic progression'
 	poetry run brain-prime
-	
-				
+
+
 install: # Install programs
 	poetry install
 
@@ -44,6 +40,3 @@ package-install: # package-install
 
 lint: # Linter
 	poetry run flake8 brain_games
-
-force:
-	pip install --user dist/*.whl --force-reinstall
