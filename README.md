@@ -2,8 +2,9 @@
 [![Actions Status](https://github.com/DmitriiSushkov/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/DmitriiSushkov/python-project-49/actions)
 
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/c2b6cebee816d4ea99db/maintainability)](https://codeclimate.com/github/DmitriiSushkov/python-project-49/maintainability)
 
-
+[![Test Coverage](https://api.codeclimate.com/v1/badges/c2b6cebee816d4ea99db/test_coverage)](https://codeclimate.com/github/DmitriiSushkov/python-project-49/test_coverage)
 
 ## Project description
 
