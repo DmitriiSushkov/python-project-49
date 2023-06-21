@@ -2,10 +2,10 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "The package contains 5 mini-games"
-authors = ["Alexey <yakor.alex@gmail.com>"]
+authors = ["DmitriiSushkov  <python.cat.dev@gmail.com>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
-repository = "https://github.com/YAV88/python-project-49"
+repository = "https://github.com/DmitriiSushkov/python-project-49"
 classifiers = [
     "Intended Audience :: End Users/Desktop",
     "Operating System :: MacOS",
