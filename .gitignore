@@ -6,4 +6,3 @@ dist/
 
 .venv/
 
-poetry.lock
