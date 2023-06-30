@@ -26,3 +26,4 @@ def generate_round():
     question = f'{num_one} {sign} {num_two}'
     correct_answer = calculate(num_one, num_two, sign)
     return question, str(correct_answer)
+    
