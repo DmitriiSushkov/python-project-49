@@ -42,5 +42,6 @@ lint: # Linter
 	poetry run flake8 brain_games
 	
 	
-force:
-	pip install --user dist/*.whl --force-reinstall
+force: #reinstall
+	pip install --user dist/*.whl --force-reinstall dist/*.whl
+	
